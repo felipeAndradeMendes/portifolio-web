@@ -15,31 +15,31 @@
             background-color: #F4F1DE;
             color: #333;
         }
-        .font-quick-sand {
-            font-family: Quicksand;
-        }
-
-        .color-01 {
-            background-color: #F4F1DE;
-        }
-        .color-02 {
-            background-color: #E07A5F;
-        }
-        .color-03 {
-            background-color: #F2CC8F;
-        }
-        .color-04 {
+        .nome-completo {
             background-color: #81B29A;
         }
-        .color-05 {
-            background-color: #3D405B;
-        }
+        .foto-perfil {
 
-        .descricao {
-            font-weight: 400;
         }
-        h1 {
+        .descricao {
+            font-family: Quicksand;
+            background-color: #F2CC8F;
+        }
+        .habilidades {
+            font-family: "Source Code Pro";
+            background-color: #E07A5F;
+        }
+        .indice {
+            background-color: #3D405B;
             color: #efefef;
+            text-decoration: none;
+        }
+        .indice a{
+            font-family: sans-serif;
+            font-weight: 100;
+            font-size: .9em;
+            text-decoration: none;
+            color: white;
         }
 
 
@@ -47,19 +47,19 @@
     </style>
 </head>
 <body>
-    <div class="color-05" id="nome-completo">
+    <div class="nome-completo" id="nome-completo">
         <h1>Felipe Marins Vilela de Andrade Mendes</h1>
     </div>
 
     <br><br><br>
 
-    <div id="foto-de-perfil">
+    <div class="foto-perfil" id="foto-de-perfil">
         <img src="./images/foto-perfil-redes-sociais.png" alt="Foto de perfil de Felipe Mendes em primeiro plano, somente o rosto">
     </div>
 
 <br>
     
-    <div class="font-quick-sand color-03 descricao" id="descricao">
+    <div class="descricao" id="descricao">
         <h3>Um <em>jovem</em> de 38 anos em busca de novos caminhos profissionais é quem eu sou neste momento.</h3>
 
         <p>Nascido em Ji-Paraná, <b>Rondônia</b>, vim para <b>Brasília</b> ainda bem cedinho na vida. Desde então, aqui vivo e construo meu viver.</p>
@@ -68,7 +68,7 @@
     
 <br><br><br>
 
-    <div class="color-02" id="habilidades">
+    <div class="habilidades" id="habilidades">
         <p><strong>Algumas das minhas habilidades</strong></p>
         <ul>
             <li><strong>Escuta ativa</strong></li>
@@ -90,15 +90,34 @@
 
 <br><br><br>
 
-    <h4>Índice</h4>
-    <ul>
-        <li> <a href="#nome-completo">Nome Completo</a> </li>
-        <li> <a href="#foto-de-perfil">Foto de Perfil</a> </li>
-        <li><a href="#descricao">Breve descrição</a></li>
-        <li><a href="#habilidades">Minhas habilidades</a></li>
-        <li><a href="https://www.linkedin.com/in/felipe-mendes-web-dev/" target="_blank">Meu Linkedin</a></li>
-    </ul>  
+    <div class="indice">
+        <h4>Índice</h4>
+        <ul class="indice">
+            <li class="indice"> <a href="#nome-completo">Nome Completo</a> </li>
+            <li> <a href="#foto-de-perfil">Foto de Perfil</a> </li>
+            <li><a href="#descricao">Breve descrição</a></li>
+            <li><a href="#habilidades">Minhas habilidades</a></li>
+            <li><a href="https://www.linkedin.com/in/felipe-mendes-web-dev/" target="_blank">Meu Linkedin</a></li>
+        </ul>
+    </div>  
 
 
 </body>
 </html>
+
+<!-- Paleta de Cores -->
+<!-- .color-01 {
+    background-color: #F4F1DE;
+}
+.color-02 {
+    background-color: #E07A5F;
+}
+.color-03 {
+    background-color: #F2CC8F;
+}
+.color-04 {
+    background-color: #81B29A;
+}
+.color-05 {
+    background-color: #3D405B;
+} -->
